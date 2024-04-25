@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Formulário_02</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>AVALIE A SUA MENTORIA</h1>
+    <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+    <img src="assets/img1.svg"/>
+    <p class="box">INFORMAÇÕES PESSOAIS</p>
+  </header>
+  <form>
+    <page>
+      <fieldset class="Informacoes_pessoais">
+          <label for="title">Nome</label>
+        <input type="text"/>
+        <label>Sobrenome</label>
+        <input type="text"/>
+            </fieldset>
+          <label>Email<span>(digite um email válido)</span></label>
+          <input class="e-mail" type="email"/>
+        <fieldset class="info_mentor">
+      <legend>Informações do Mentor</legend>
+        <label>Selecione quem foi o seu mentor</label>
+        <select name="mentor"/>
+        <p>Feedback do mentor</p>
+        <textarea></textarea>
+      
+          <div class="check-privacy-event">
+              <input type="checkbox" name="privacy" id="privacy" />
+              <label for="privacy">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+          </div>
+          </fieldset>
+      <legend>Agendando próxima mentoria</legend>
+      <fieldset class="agend">
+        <div class="div-label">
+      <label class="label-data">Data<span>(DD/MM/AAAA)</span></label>
+        <label class="label-das">Das</label>
+        <label class="label-ate">Até</label>
+        </div>
+        <div class="div-input">
+      <input type="text" class="data-input"/>
+      <input type="text" class="das-input""/>
+      <input type="text" class="ate-input""/>
+        </div>
+          </fieldset>
+          <button>SALVAR</button>
+    </page>
+
+
+
+  </form>
+
+</body>
+
+</html>
